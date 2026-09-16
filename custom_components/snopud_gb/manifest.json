@@ -1,0 +1,12 @@
+{
+  "domain": "snopud_gb",
+  "name": "Snohomish County PUD (Green Button)",
+  "version": "0.0.1",
+  "documentation": "https://github.com/OfficerDoughboy/ha-snopud-greenbutton",
+  "issue_tracker": "https://github.com/OfficerDoughboy/ha-snopud-greenbutton/issues",
+  "codeowners": ["@OfficerDoughboy"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "requirements": [],
+  "iot_class": "cloud_polling"
+}

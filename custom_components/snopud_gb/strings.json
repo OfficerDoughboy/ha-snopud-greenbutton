@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to MySnoPUD",
+        "description": "Enter your MySnoPUD (my.snopud.com) sign-in. Two-factor authentication is not supported.",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email address or password.",
+      "cannot_connect": "Could not reach the MySnoPUD portal.",
+      "unknown": "Unexpected error. Check the logs."
+    },
+    "abort": {
+      "already_configured": "This MySnoPUD account is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "SnoPUD options",
+        "data": {
+          "scan_interval_minutes": "How often to pull data (minutes)",
+          "backfill_days": "Days of history to request each pull"
+        }
+      }
+    }
+  }
+}

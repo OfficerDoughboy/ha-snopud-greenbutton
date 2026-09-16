@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Never commit these -- they can contain your account details
+debug_*.html
+snopud_raw.xml
+*.env
+.env
+
+# Desktop app export folder
+Claude outputs/
+.smbcreds
